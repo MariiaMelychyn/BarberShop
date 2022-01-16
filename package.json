@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://RuslanaLogosha.github.io/BarberShop_group_4",
+  "homepage": "https://github.com/MariiaMelychyn/BarberShop",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url=/BarberShop_group_4/",
+    "predeploy": "npm run build -- --public-url=/BarberShop/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
