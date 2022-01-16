@@ -1,0 +1,237 @@
+<div class="container-for-header">
+  <header class="page-header">
+    <div class="container page-header-row">
+      <svg class="logo-barbershop" aria-label="логотип барбешопа">
+        <use href="./images/sprite.svg#logo-barbershop"></use>
+      </svg>
+
+      <button
+        class="menu-mobile-toggle"
+        type="button"
+        aria-controls="menu-mobile-container"
+        aria-expanded="false"
+        data-menu-button=""
+      >
+        <svg aria-label="переключатель мобильного меню">
+          <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+          <use class="icon-close" href="./images/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <div
+        class="menu-mobile-container"
+        id="menu-mobile-container"
+        data-menu=""
+      >
+        <nav class="menu-mobile-container-element">
+          <ul class="site-nav">
+            <li class="site-nav-item">
+              <a class="site-nav-link" data-site-nav href="#about-us">О нас</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-link" data-site-nav href="#services-and-prices"
+                >Услуги и цены</a
+              >
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-link" data-site-nav href="#team">Мастера</a>
+            </li>
+            <li class="site-nav-item">
+              <a class="site-nav-link" data-site-nav href="#contacts"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="menu-mobile-container-element page-header-contacts">
+          <a class="page-header-tel" href="tel:+380441111111"
+            >+38 044 111 11 11</a
+          >
+
+          <button
+            class="page-header-button"
+            data-open-modal
+            aria-label="Кнопка онлайн-записи"
+          >
+            онлайн-запись
+          </button>
+        </div>
+
+        <div class="page-header-social">
+          <ul class="menu-mobile-container-element page-social">
+            <li class="page-social-item">
+              <a class="page-social-link" href="#">Instagram</a>
+            </li>
+            <li class="page-social-item">
+              <a class="page-social-link" href="#">Youtube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="greeting">
+      <h2 class="section-title greeting-subtitle">
+        A hair salon for men in Kyiv
+      </h2>
+
+      <h1 class="title-greatest">BarberShop</h1>
+      <p class="greeting-text">
+        Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со
+        вкусом.
+      </p>
+    </div>
+  </div>
+
+  <div class="slider">
+    <div class="mySlides">
+      <picture>
+        <source
+          srcset="./images/slider1-mob.webp 1x, ./images/slider1-mob@2x.webp 2x"
+          type="image/webp"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="./images/slider1-mob.jpg 1x, ./images/slider1-mob@2x.jpg 2x"
+          type="image/jpg"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="./images/slider1-tab.webp 1x, ./images/slider1-tab@2x.webp 2x"
+          type="image/webp"
+          media=" (max-width: 1279px)"
+        />
+        <source
+          srcset="./images/slider1-tab.jpg 1x, ./images/slider1-tab@2x.jpg 2x"
+          type="image/jpg"
+          media=" (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/slider1-desk.webp    1x,
+            ./images/slider1-desk@2x.webp 2x
+          "
+          type="image/webp"
+          media=" (min-width: 1280px)"
+        />
+        <source
+          srcset="./images/slider1-desk.jpg 1x, ./images/slider1-desk@2x.jpg 2x"
+          type="image/jpg"
+          media=" (min-width: 1280px)"
+        />
+        <img
+          class="slider-slide current"
+          src="./images/slider1-tab.jpg"
+          alt="Слайд №1"
+        />
+      </picture>
+    </div>
+    <div class="mySlides">
+      <picture>
+        <source
+          srcset="./images/slider2-mob.webp 1x, ./images/slider2-mob@2x.webp 2x"
+          type="image/webp"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="./images/slider2-mob.jpg 1x, ./images/slider2-mob@2x.jpg 2x"
+          type="image/jpg"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="./images/slider2-tab.webp 1x, ./images/slider2-tab@2x.webp 2x"
+          type="image/webp"
+          media=" (max-width: 1279px)"
+        />
+        <source
+          srcset="./images/slider2-tab.jpg 1x, ./images/slider2-tab@2x.jpg 2x"
+          type="image/jpg"
+          media=" (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/slider2-desk.webp    1x,
+            ./images/slider2-desk@2x.webp 2x
+          "
+          type="image/webp"
+          media=" (min-width: 1280px)"
+        />
+        <source
+          srcset="./images/slider2-desk.jpg 1x, ./images/slider2-desk@2x.jpg 2x"
+          type="image/jpg"
+          media=" (min-width: 1280px)"
+        />
+        <img
+          class="slider-slide current"
+          src="./images/slider2-tab.jpg"
+          alt="Слайд №2"
+        />
+      </picture>
+    </div>
+    <div class="mySlides">
+      <picture>
+        <source
+          srcset="./images/slider3-mob.webp 1x, ./images/slider3-mob@2x.webp 2x"
+          type="image/webp"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="./images/slider3-mob.jpg 1x, ./images/slider3-mob@2x.jpg 2x"
+          type="image/jpg"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="./images/slider3-tab.webp 1x, ./images/slider3-tab@2x.webp 2x"
+          type="image/webp"
+          media=" (max-width: 1279px)"
+        />
+        <source
+          srcset="./images/slider3-tab.jpg 1x, ./images/slider3-tab@2x.jpg 2x"
+          type="image/jpg"
+          media=" (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/slider3-desk.webp    1x,
+            ./images/slider3-desk@2x.webp 2x
+          "
+          type="image/webp"
+          media=" (min-width: 1280px)"
+        />
+        <source
+          srcset="./images/slider3-desk.jpg 1x, ./images/slider3-desk@2x.jpg 2x"
+          type="image/jpg"
+          media=" (min-width: 1280px)"
+        />
+        <img
+          class="slider-slide current"
+          src="./images/slider3-tab.jpg"
+          alt="Слайд №3"
+        />
+      </picture>
+    </div>
+
+    <div class="slider-nav">
+      <button class="prev" data-slider-prev>Назад</button>
+      <button class="next" data-slider-next>Вперед</button>
+    </div>
+
+    <div class="slide-marks">
+      <button class="line" data-slider-line></button>
+      <button class="line" data-slider-line></button>
+      <button class="line" data-slider-line></button>
+    </div>
+  </div>
+
+  <button
+    id="myBtn"
+    data-button-top
+    title="Go to top"
+    aria-label="вернуться вверх страницы"
+  >
+    <i class="fas fa-angle-double-up"></i>
+  </button>
+</div>
